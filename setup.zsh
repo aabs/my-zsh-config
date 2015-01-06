@@ -13,9 +13,8 @@ source $(brew --prefix nvm)/nvm.sh
 # ------------------------------------------------------------------------------------------------
 #  Some useful little aliases for tools I use a lot
 # ------------------------------------------------------------------------------------------------
-alias gvim='open -a MacVim '
-alias glog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 alias USM='open -a Safari.app https://goto.unisuper.com.au'
+alias music='pianobar'
 
 # ------------------------------------------------------------------------------------------------
 # Cryptocurrency accounts helper commands
@@ -46,7 +45,7 @@ docker-ip() {
 }
 
 alias rmdockercontainers="docker ps -a -q | xargs -n 1 -I {} docker rm {}"
-alias rmdockerimages="docker rmi -f $(docker images | grep 'ago' | tr -s ' ' | cut -d ' ' -f 3)"
+# alias rmdockerimages="docker rmi -f $(docker images | grep 'ago' | tr -s ' ' | cut -d ' ' -f 3)"
 alias cleanupdocker="rmdockercontainers; rmdockerimages"
 
 # ------------------------------------------------------------------------------------------------

@@ -1,0 +1,1 @@
+* */15 * * * * ~/dev/git/autocommit/git-autocommit.sh ~/dev/erlang/katas/kata5  >/dev/null
