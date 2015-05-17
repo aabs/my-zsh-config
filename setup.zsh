@@ -11,7 +11,7 @@ export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK
 export PATH=$JAVA_HOME/bin:$M2:/usr/local/bin:$PATH
 export PATH="$M3:/usr/local/git/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/andrewmatthews/repository/personal/dev/packer/packer_0.7.5_darwin_amd64"
 export PATH=$PATH:/usr/local/opt/go/libexec/bin
-export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:$GOPATH/bin:/Users/andrewmatthews/q
 export MONO_GAC_PREFIX="/usr/local"
 source dnvm.sh
 
